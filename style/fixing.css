@@ -1,0 +1,115 @@
+
+/* FILOSOFIA*/
+@media screen and (max-width: 1100px) {
+	.nuestraFilosofia {margin-top: 150px;}
+	}
+
+/* CIRCULOS FILOSOFIA*/
+@media screen and (max-width: 1200px) {
+	.circulos {
+		width: 60%;}
+	.circulo {
+		margin-bottom: 30px;
+	}
+	}
+
+/*SERVICIOS*/
+@media screen and (max-width: 1400px) {
+	.tituloItemServicios {
+		width: 70%;
+		display: inline-block;
+		float: right;
+		font-size: 50%;
+		line-height: 20px;
+		position: relative;
+		top: 26px;
+		right: 40px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.contentItem p {
+			font-size: 60%;
+			line-height: 15px;
+			padding-top: 5%;
+	}
+	.contentItem {
+		padding-top: 5px;
+		margin-top: 20px;
+	}
+	.contentLogo1,
+	.contentLogo2,
+	.contentLogo3,
+	.contentLogo4 {
+		display: inline-block;
+		width: 30px; }
+	#servicios .content {padding-left: 3%;}
+
+
+	}
+
+@media screen and (max-width: 950px) {
+
+	.tituloItemServicios {
+		width: 70%;
+		display: inline-block;
+		float: right;
+		font-size: 40%;
+		position: relative;
+		top: 27px;
+		right: 20px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.contentItem p {
+		font-size: 60%;
+		line-height: 15px;
+		padding-top: 5%;
+	}
+	.contentItem {
+		margin-top: -10px;
+		padding-right: 2%;
+	}
+	}
+
+/*FORMA DE TRABAJAR*/
+@media screen and (max-width: 1100px) {
+
+	#formaDeTrabajar .linea-medio {margin-top: 150px;}
+	#formaDeTrabajar .contenido p { 
+		font-size: 90%;
+		line-height: 25px;
+		padding-left: 0px;}
+	}
+
+@media screen and (max-width: 1100px) {
+	#nuestroEquipo .titulo-seccion-arriba{
+		padding-top: 40px;}
+	}
+/*CONTACTO*/
+@media screen and (max-width: 1400px) {
+
+
+	#contacto .izquierda {
+		padding-top: 1%;
+	}
+	#contacto .izquierda div {margin-top: 7%;}
+
+	#contacto .derecha {
+		padding-top: 3.5%;
+	}
+	input {
+		margin-bottom: 3.5%;
+	}
+	textarea {	
+		height: 110px;}
+	}
+@media screen and (max-width: 950px) {
+	#contacto .izquierda {padding-top: 0;}
+	#contacto .izquierda div {margin-top: 7%;}
+	#contacto .derecha {padding-top: 3.5%;}
+	input {margin-bottom: 3.5%;}
+	textarea {height: 50px;}
+	}
+
