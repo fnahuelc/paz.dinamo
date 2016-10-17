@@ -75,7 +75,8 @@ nav ul {display: inline-block;
     zoom: 1;}
 
 nav p { 	
-	font-family: "ROBOTOCONDENSED-BOLD";
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
  	font-size: 20px;
 	color: white;
 }
@@ -97,7 +98,7 @@ nav li {padding: 138px 0 0 0;}
 p {margin: 0;}
 
 .somos {
-	font-family: "ANTON";
+	font-family: 'Anton', sans-serif;
 	color: #F26F21;
 	float: right;
 	display: block;
@@ -126,7 +127,7 @@ p {margin: 0;}
 	text-align: left;
 }
 .titulo-seccion-arriba {
-	font-family: "ANTON";
+	font-family: 'Anton', sans-serif;
 	color: #558188;
 	margin: 0;
 	line-height: 38px ;
@@ -135,7 +136,7 @@ p {margin: 0;}
  }
 
 .titulo-seccion-abajo {
-	font-family: "ANTON";
+	font-family: 'Anton', sans-serif;
 	color: #F26F21;
 	margin: 0;
 	line-height: 38px;
@@ -145,7 +146,8 @@ p {margin: 0;}
 
 .intro {width: 100%; height: 278px;}
 .intro .content1, .intro .content2 {
-	font-family: "LATO-LIGHT";
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
 	font-size: 	17px;
 	padding-top: 5%;
 	padding-right: 5%;
@@ -164,7 +166,7 @@ p {margin: 0;}
 }
 
 .nuestraFilosofia {
-	font-family: "ANTON";
+	font-family: 'Anton', sans-serif;
 	display: block; 
 	margin-right: auto;
 	margin-left: auto;
@@ -180,7 +182,8 @@ p {margin: 0;}
 }
 
 .filosofia {
-	font-family: "LATO-BOLD";
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
 	font-size: 17px;
 	line-height: 36px;
 	letter-spacing: 2px;
@@ -193,7 +196,8 @@ p {margin: 0;}
 .filosofia p {text-align: center;}
 
 .creemosQue {
-	font-family: "LATO-LIGHT";
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
 	font-size: 15px;
 	line-height: 28px;
 	color: #504F53;
@@ -211,7 +215,8 @@ p {margin: 0;}
 	width: 234px;
 	line-height: 234px;
 	background-color: #F26F21;
-	font-family: "LATO-BOLD";
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
 	font-size: 11px;
 	text-align: center;
 	color: #FFFFFF;
@@ -241,6 +246,7 @@ p {margin: 0;}
 	background-image: url("../img/servicios.jpg");
 }
 #servicios .titulo-seccion {
+	font-family: 'Anton', sans-serif;
 	color: white;
 	float: left;
 	display: inline-block;
@@ -290,7 +296,8 @@ p {margin: 0;}
 .contentLogo4 {background-image:url("../img/contentLogo4.png");}
 
 .tituloItemServicios {
-	font-family: "LATO-BLACK";
+	font-family: "Lato", sans-serif;
+	font-weight: black;
 	font-size: 14px;
 	line-height: 28px;
 	letter-spacing: 1px;
@@ -301,7 +308,7 @@ p {margin: 0;}
 
 }
 .contentItem p{
-	font-family: "LATO-REGULAR";
+	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	line-height: 25px;
 	letter-spacing: 2px;
@@ -329,7 +336,8 @@ p {margin: 0;}
 }
 
 #formaDeTrabajar .nuestraPropuesta {
-	font-family: "LATO-LIGHT";
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	font-size: 17px;
 	letter-spacing: 2px;
 	text-align: center;
@@ -385,7 +393,7 @@ p {margin: 0;}
 	margin-right: 10%;}
 
 .contenido h2  {
-	font-family: "ANTON";
+	font-family: 'Anton', sans-serif;
 	font-size: 25.48px;
 	line-height: 25.48px;
 	letter-spacing: 1px;
@@ -402,7 +410,8 @@ p {margin: 0;}
 
 }
 .contenido p {
-	font-family: "LATO-LIGHT";
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 	line-height: 34px;
 	letter-spacing: 1px;
@@ -457,7 +466,8 @@ p {margin: 0;}
 	background-size: cover;
 	background-position: center center;
 	padding-top: 20%;
-	font-family: "LATO-LIGHT";
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
 	font-size: 16px;
 	line-height: 25px;
 	letter-spacing: 1pt;
@@ -485,11 +495,13 @@ p {margin: 0;}
 	margin-top: 100px;
 }
 #nuestroEquipo h3 {
-	font-family: "LATO-BLACK";
+	font-family: "Lato", sans-serif;
+	font-weight: black;
 }
 
 #nuestroEquipo h4 {
-	font-family: "LATO-BLACK";
+	font-family: "Lato", sans-serif;
+	font-weight: black;
 	letter-spacing: 0px;
 }
 
@@ -509,7 +521,7 @@ p {margin: 0;}
 	color: white;
 }
 #contacto p {
-	font-family: "LATO-REGULAR";
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	letter-spacing: 2px;
 	line-height: 36px;
@@ -517,7 +529,8 @@ p {margin: 0;}
 #contacto .direccion {line-height: 21px;}
 
 #contacto h4 {
-	font-family: "LATO-BOLD";
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
 	font-size: 18px;
 	line-height: 21px;
 	margin: 9px 0;}
@@ -530,7 +543,8 @@ p {margin: 0;}
 	margin-right: auto;	 
 }
 #contacto .derecha h4 {
-	font-style: "LATO-BOLD";
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
 	font-size: 20px;
 	line-height: 20px;
 	letter-spacing: 2px;
@@ -548,7 +562,8 @@ textarea {
 }
 input[type=text], input[type=email], input[type=number], textarea {
 	font-size: 20px;
-	font-family: "LATO-BOLD";
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
 	letter-spacing: 2px;
 }
 input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, textarea:focus {
@@ -556,7 +571,8 @@ input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, texta
 }
 input[type=submit]{
 	width: 109px;
-	font-family: "LATO-BOLD";
+	font-family: "Lato", sans-serif;
+	font-weight: bold;
 	font-size: 30px;
 	letter-spacing: 2px;
 	clear: both;
