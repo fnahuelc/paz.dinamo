@@ -10,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="style/fixing.css"/>
 		<link rel="stylesheet" type="text/css" href="style/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="style/extra-animation.css"/>
+		<link rel="stylesheet" type="text/css" href="style/menuDesplegable.css"/>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<!--
 		<script type="text/javascript" src="../../Librerias/jquery-3.1.1.min.js"></script>
@@ -35,20 +36,22 @@
 	</head>
 	<body>
 	<div class="contenedor">
-		<section class="main">
+		<section id="main" class="main">
 			<div>
 				<a href=""><div class="twitter"></div></a>
 				<a href=""><div class="facebook"></div></a>
 				<a href=""><div class="instagram"></div></a>
 			</div>
-			<nav>
+			<input type="checkbox" class="checkbox" id="menu-toogle"/>
+			<label for="menu-toogle" class="menu-toogle"></label>
+			<nav class="nav">
 				<div class="logo"></div>
 				<ul class="spacing-contenedor">
-					<li class="spacing"><a href="#quienesSomos"><p>NOSOTROS</p></a></li>
-					<li class="spacing"><a href="#servicios"><p>SERVICIOS</p></a></li>
-					<li class="spacing"><a href="#clientes"><p>CLIENTES</p></a></li>
-					<li class="spacing"><a href="#contacto"><p>CONTACTO</p></a></li>
-					<li class="spacing"><a href="#"><p>DIMASS.STUDIO</p></a></li>
+					<li class="spacing nav__item current"><a href="#quienesSomos"><p>NOSOTROS</p></a></li>
+					<li class="spacing nav__item"><a href="#servicios"><p>SERVICIOS</p></a></li>
+					<li class="spacing nav__item"><a href="#clientes"><p>CLIENTES</p></a></li>
+					<li class="spacing nav__item"><a href="#contacto"><p>CONTACTO</p></a></li>
+					<li class="spacing nav__item"><a href="#"><p>DIMASS.STUDIO</p></a></li>
 					<span class="stretch"></span>
 				</ul>
 			</nav>
@@ -71,6 +74,7 @@
 				<br>
 				SOMOS DINAMO 360. SOMOS COMUNICACIÓN
 				</p>
+				<a href="#main" class="botonHome"></a>
 			</div>
 			<h3 class="nuestraFilosofia">NUESTRA FILOSOFÍA</h3>
 			<div class="filosofia"><p>“YES, I`M OLD SCHOOL. I HAVE GOOD MANNERS. I SHOW OTHERS RESPECT AND I WILL ALWAYS HELP THOSE WHO NEED ME. IT’S NOT BECAUSE I`M OLD FASHIONED. <br> IT`S BECAUSE I WAS RAISED PROPERLY”</p></div>
