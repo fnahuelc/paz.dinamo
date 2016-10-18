@@ -32,5 +32,5 @@ $("#nuestroEquipo div div").css({"margin":(((anchoNavegador/3)-5-$("#nuestroEqui
 var hightIm = $('#contacto').width()*.4739;
 $('#contacto').height(hightIm);
 
-/*console.log($(window).width())*/
+console.log($(window).width())
 };

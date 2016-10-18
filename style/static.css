@@ -1,17 +1,11 @@
 .contenedor {
-	min-width: 850px;
+	min-width: 900px;
 	max-width: 1920px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
 	background: #FFFFFF;
 }
-
-.main, .logo {
-	background-size: cover;
-	background-position: 0; 
-} 
-
 .main {
 	padding-bottom: 59%;
 	width: 100%;
@@ -25,9 +19,11 @@
 
 .logo {
 	background: url('../img/logo.png');
+	background-size: contain;
+	background-position: 0;
+	background-repeat: no-repeat;
 	width: 255px;
 	height: 145px;
-	letter-spacing: 2px;
 	display: inline-block;
 	position: relative;
 	top: 38px;
@@ -51,12 +47,29 @@ nav {
 nav ul {display: inline-block;
 	height: 100%;
 	width: 100%;
-	padding: 0 50px 0 500px;
+	padding: 0 100px 0 500px;
 	margin: 0;
 	float: right;
 	box-sizing: border-box;
 	position: absolute;
 	right: 0;}
+
+nav li {padding: 135px 0 0 0;}
+
+nav p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: .2em;
+	color: white;
+
+}
+
+nav p:hover {
+	color:#F26F21;
+	-webkit-transition: width 1s; /* Safari */
+	transition:  .45s;
+}
 
 .spacing-contenedor {
 	 text-align: justify;
@@ -74,20 +87,7 @@ nav ul {display: inline-block;
     *display: inline;
     zoom: 1;}
 
-nav p { 	
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: bold;
- 	font-size: 20px;
-	color: white;
-}
-
-nav p:hover {
-	color:#F26F21;}
-
 a {text-decoration: none;}
-
-
-nav li {padding: 138px 0 0 0;}
 
 .stretch {
     width: 100%;
@@ -106,7 +106,7 @@ p {margin: 0;}
 	margin-top: 22.4%;
 	text-align: right;
 	line-height: 92px;
-	letter-spacing: 1px;
+	letter-spacing: 0em;
 }
 .somosCom {	
 	font-size: 75.63px;
@@ -123,7 +123,7 @@ p {margin: 0;}
 	color: #F26F21;
 	float: left;
 	display: inline-block;
-	padding: 5% 0% 5% 6%;
+	padding: 5.3% 0% 5% 6%;
 	text-align: left;
 }
 .titulo-seccion-arriba {
@@ -132,7 +132,7 @@ p {margin: 0;}
 	margin: 0;
 	line-height: 38px ;
 	font-size: 37px;
-	letter-spacing: 1px;
+	letter-spacing: .1em;
  }
 
 .titulo-seccion-abajo {
@@ -141,7 +141,7 @@ p {margin: 0;}
 	margin: 0;
 	line-height: 38px;
 	font-size: 37px;
-	letter-spacing: 1px;
+	letter-spacing: .1em;
 }
 
 .intro {width: 100%; height: 278px;}
@@ -154,7 +154,7 @@ p {margin: 0;}
 	text-align: justify;
 	display: inline-block;
 	color: #504F53;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	line-height: 36px;
 	width:65%;
 	float: right;
@@ -171,14 +171,10 @@ p {margin: 0;}
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 30px;
-	letter-spacing: 1px;
+	letter-spacing: .1em;
 	text-align: center;
 	margin-top: 90px;
 	clear: both;
-}
-
-@media screen and (max-width: 1100px) {
-	.nuestraFilosofia {margin-top: 150px;}
 }
 
 .filosofia {
@@ -186,7 +182,7 @@ p {margin: 0;}
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 36px;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	color: #FFFFFF;
 	margin: 0;
 	padding: 2em 10%;
@@ -203,7 +199,7 @@ p {margin: 0;}
 	color: #504F53;
 	padding: 50px 5px;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	text-transform: uppercase;
 }
 
@@ -221,14 +217,18 @@ p {margin: 0;}
 	text-align: center;
 	color: #FFFFFF;
     text-transform:uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .2em;
 }
 
 .circulo p {
-    line-height: 2;
+    line-height: 20px;
     display: inline-block;
     vertical-align: middle;
-    padding: 30px;   
+    padding: 30px;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 }
 .circulos {	
 	width: 80%;
@@ -247,6 +247,7 @@ p {margin: 0;}
 }
 #servicios .titulo-seccion {
 	font-family: 'Anton', sans-serif;
+	letter-spacing: .1em;
 	color: white;
 	float: left;
 	display: inline-block;
@@ -261,14 +262,14 @@ p {margin: 0;}
 	margin-top: 0;
 }
 #servicios .content {
-	opacity: 0.5;
-	background-color: #68666B;
+	background: rgba(104,102,107,.6);
 	float: right;
 	width: 66%;
 	max-height: 910px;
 	margin: 0;
 	padding: 0 0 0 8%;
 	position: relative;
+	z-index: 0;
 }
 .contentItem {
 	width: 50%;
@@ -287,6 +288,7 @@ p {margin: 0;}
 	background-repeat: no-repeat;
 	width: 95px;
 	height: 60px;
+	z-index: 3;
 }
 
 
@@ -297,10 +299,10 @@ p {margin: 0;}
 
 .tituloItemServicios {
 	font-family: "Lato", sans-serif;
-	font-weight: black;
+	font-weight: 900;
 	font-size: 14px;
 	line-height: 28px;
-	letter-spacing: 1px;
+	letter-spacing: .2em;
 	color: #FFFFFF;
 	margin: 0;
 	padding-top: 3%;
@@ -311,7 +313,7 @@ p {margin: 0;}
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
 	line-height: 25px;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	color: #FFFFFF;
 	text-align: justify;
 }
@@ -339,7 +341,7 @@ p {margin: 0;}
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 17px;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	text-align: center;
 	margin: 3% 0 50px 0;
 }
@@ -383,7 +385,6 @@ p {margin: 0;}
 	float: right;
 	margin-right: 10%;
 }
-
 .contenido.FormaTrabajar3 {
 	float: left;
 	margin-left: 10%;}
@@ -396,7 +397,7 @@ p {margin: 0;}
 	font-family: 'Anton', sans-serif;
 	font-size: 25.48px;
 	line-height: 25.48px;
-	letter-spacing: 1px;
+	letter-spacing: .1em;
 	float: left;
 	margin: 0 5px 0 0;
 	padding: 12.5px 0;}
@@ -414,11 +415,12 @@ p {margin: 0;}
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 34px;
-	letter-spacing: 1px;
+	letter-spacing: 0em;
 	background-color: #F8F8F8;
 	display: block;
 	clear: both;
-	padding: 30px 30px 0 30px;
+	padding: 30px;
+	text-align: right;
 	}
 .contenido.FormaTrabajar1 p, .contenido.FormaTrabajar3 p {
 	text-align: left;
@@ -446,7 +448,7 @@ p {margin: 0;}
 	width: 160px;
 	height:90px;
 	background-repeat: no-repeat;
-	display: inline-box;
+	display: inline-block;
 }
 
 .besha{background-image: url("../img/beshaLink.png");}
@@ -465,12 +467,12 @@ p {margin: 0;}
 	background-image: url("../img/nuestroEquipo.png");
 	background-size: cover;
 	background-position: center center;
-	padding-top: 20%;
+	padding-top: 320px;
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 25px;
-	letter-spacing: 1pt;
+	letter-spacing: .1em;
 	color: #FFFFFF;}
 
 #nuestroEquipo h1 {
@@ -492,17 +494,21 @@ p {margin: 0;}
 	margin-left: auto;
 }
 #nuestroEquipo .primerDiv {
-	margin-top: 100px;
+	padding-top: 80px;
+}
+#nuestroEquipo .ultimoDiv {
+	padding-bottom: 80px;
 }
 #nuestroEquipo h3 {
 	font-family: "Lato", sans-serif;
-	font-weight: black;
+	letter-spacing: .2em;
+	font-weight: 900;
 }
 
-#nuestroEquipo h4 {
+#nuestroEquipo h4,#nuestroEquipo h5  {
 	font-family: "Lato", sans-serif;
-	font-weight: black;
-	letter-spacing: 0px;
+	font-weight:300;
+	letter-spacing: .2em;
 }
 
 #contacto {
@@ -523,13 +529,14 @@ p {margin: 0;}
 #contacto p {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	line-height: 36px;
 }
 #contacto .direccion {line-height: 21px;}
 
 #contacto h4 {
 	font-family: "Lato", sans-serif;
+	letter-spacing: .2em;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 21px;
@@ -547,7 +554,7 @@ p {margin: 0;}
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 20px;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	margin: 9px 0;
 	color: #FFFFFF;
 }
@@ -564,57 +571,21 @@ input[type=text], input[type=email], input[type=number], textarea {
 	font-size: 20px;
 	font-family: "Lato", sans-serif;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 }
 input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, textarea:focus {
     background-color: lightblue;
 }
 input[type=submit]{
-	width: 109px;
+	width: 5em;
 	font-family: "Lato", sans-serif;
 	font-weight: bold;
 	font-size: 30px;
-	letter-spacing: 2px;
+	letter-spacing: .2em;
 	clear: both;
 	float: right;
 	margin-right: 20%;
-
 }
-
-@media screen and (max-width: 1400px) {
-
-
-#contacto .izquierda {
-	padding-top: 1%;
-}
-#contacto .izquierda div {margin-top: 7%;}
-
-#contacto .derecha {
-	padding-top: 3.5%;
-}
-input {
-	margin-bottom: 3.5%;
-}
-textarea {	
-	height: 110px;}
-}
-
-@media screen and (max-width: 950px) {
-	#contacto .izquierda {
-	padding-top: 0;
-}
-#contacto .izquierda div {margin-top: 7%;}
-
-#contacto .derecha {
-	padding-top: 3.5%;
-}
-input {
-	margin-bottom: 3.5%;
-}
-textarea {	
-	height: 50px;}
-}
-
 .firma {
 	width: 216px;
 	background-image: url("../img/berlin.png");

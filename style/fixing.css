@@ -1,7 +1,37 @@
+/* PORTADA */
+@media screen and (max-width: 1400px) {
+	nav ul {padding-left: 370px;
+			padding-right: 60px;}
+	nav li {padding-top: 113px;}
+	.logo {width: 230px;
+			top: 20px;
+			left: 70px;}
+}
+@media screen and (max-width: 1150px) {
+	.logo {width: 170px;
+			top: 10px;
+			left: 25px;}
+	nav ul {padding-left: 230px;
+		padding-right: 30px;}
+	nav li {padding-top: 93px;}
+	nav p {font-size: 18px;}
+}
+@media screen and (max-width: 950px) {
+	.logo {width: 140px;
+		top: -20px;
+		left: 20px;}
+	nav ul {padding-left: 190px;
+			padding-right: 20px;}
+	nav li {padding-top: 58px;}
+	.somos {margin-top: 18%; }
+	.somosCom {font-size: 60.63px; 	line-height: 72px;}
+	.somosDin {font-size: 76px;line-height: 72px;}
+}
+
 
 /* FILOSOFIA*/
-@media screen and (max-width: 1100px) {
-	.nuestraFilosofia {margin-top: 150px;}
+@media screen and (max-width: 1150px) {
+	.nuestraFilosofia {margin-top: 200px;}
 	}
 
 /* CIRCULOS FILOSOFIA*/
@@ -16,25 +46,26 @@
 /*SERVICIOS*/
 @media screen and (max-width: 1400px) {
 	.tituloItemServicios {
-		width: 70%;
+		width: 90%;
 		display: inline-block;
 		float: right;
-		font-size: 50%;
+		font-size: 11px;
 		line-height: 20px;
 		position: relative;
 		top: 26px;
-		right: 40px;
+		left: 10px;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 
 	.contentItem p {
-			font-size: 60%;
-			line-height: 15px;
+			font-size: 11px;
+			line-height: 22px;
 			padding-top: 5%;
 	}
 	.contentItem {
 		padding-top: 5px;
+		padding-right: 5%;
 		margin-top: 20px;
 	}
 	.contentLogo1,
@@ -48,13 +79,13 @@
 
 	}
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
 
 	.tituloItemServicios {
-		width: 70%;
+		width: 89%;
 		display: inline-block;
 		float: right;
-		font-size: 40%;
+		font-size: 9px;
 		position: relative;
 		top: 27px;
 		right: 20px;
@@ -63,29 +94,43 @@
 	}
 
 	.contentItem p {
-		font-size: 60%;
-		line-height: 15px;
+		font-size: 9px;
+		line-height: 18px;
 		padding-top: 5%;
 	}
 	.contentItem {
 		margin-top: -10px;
-		padding-right: 2%;
+		padding-right: 3%;
+		padding-left: 1%;
 	}
+		#servicios .content {
+			width: 70%;
+		}
 	}
 
 /*FORMA DE TRABAJAR*/
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1150px) {
 
-	#formaDeTrabajar .linea-medio {margin-top: 150px;}
-	#formaDeTrabajar .contenido p { 
-		font-size: 90%;
-		line-height: 25px;
-		padding-left: 0px;}
+	#formaDeTrabajar .linea-medio {
+		margin-top: 150px;
 	}
 
-@media screen and (max-width: 1100px) {
-	#nuestroEquipo .titulo-seccion-arriba{
-		padding-top: 40px;}
+	#formaDeTrabajar .contenido p {
+		font-size: 90%;
+		line-height: 25px;
+		padding-left: 0px;
+	}
+
+	#formaDeTrabajar .contenido {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+/*EQUIPO*/
+@media screen and (max-width: 1150px) {
+	#nuestroEquipo {padding-top: 250px;  }
+	#nuestroEquipo .titulo-seccion-arriba{padding-top: 40px;}
 	}
 /*CONTACTO*/
 @media screen and (max-width: 1400px) {
@@ -102,14 +147,19 @@
 	input {
 		margin-bottom: 3.5%;
 	}
-	textarea {	
+	textarea {
 		height: 110px;}
 	}
-@media screen and (max-width: 950px) {
-	#contacto .izquierda {padding-top: 0;}
+@media screen and (max-width: 1100px) {
+	#contacto .izquierda {
+		padding-top: 20px;
+		padding-left:40px;
+		width: 45%;
+	}
+	#contacto h4, #contacto p {line-height: 18px}
 	#contacto .izquierda div {margin-top: 7%;}
-	#contacto .derecha {padding-top: 3.5%;}
+	#contacto .derecha {padding-top: 20px;}
+	#contacto .derecha h4 {line-height: 16px;}
 	input {margin-bottom: 3.5%;}
 	textarea {height: 50px;}
 	}
-
