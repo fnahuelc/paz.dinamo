@@ -3,6 +3,7 @@ $(myF);
 
 function myF(){
 	/*======== Aspect ratio de Nuestros Servicios ============*/
+
 	var hightIm = $('.imAspRat').width()*.48;
 	$('.imAspRat').height(hightIm);
 	var hightPar = $('.heightParent').height();
