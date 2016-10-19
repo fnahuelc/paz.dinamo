@@ -2,18 +2,18 @@
 @media screen and (max-width: 1400px) {
 	nav ul {padding-left: 370px;
 			padding-right: 60px;}
-	nav li {padding-top: 113px;}
+	nav li {padding-top: 119px;}
 	.logo {width: 230px;
-			top: 20px;
+			top: 0px;
 			left: 70px;}
 }
 @media screen and (max-width: 1150px) {
 	.logo {width: 170px;
-			top: 10px;
+			top: 0px;
 			left: 25px;}
 	nav ul {padding-left: 230px;
 		padding-right: 30px;}
-	nav li {padding-top: 93px;}
+	nav li {padding-top: 105px;}
 	nav p {font-size: 18px;}
 }
 @media screen and (max-width: 950px) {
@@ -22,7 +22,7 @@
 		left: 20px;}
 	nav ul {padding-left: 190px;
 			padding-right: 20px;}
-	nav li {padding-top: 58px;}
+	nav li {padding-top: 76Px;}
 	.somos {margin-top: 18%; }
 	.somosCom {font-size: 60.63px; 	line-height: 72px;}
 	.somosDin {font-size: 76px;line-height: 72px;}
@@ -149,6 +149,8 @@
 	}
 	textarea {
 		height: 110px;}
+
+
 	}
 @media screen and (max-width: 1100px) {
 	#contacto .izquierda {
@@ -162,4 +164,5 @@
 	#contacto .derecha h4 {line-height: 16px;}
 	input {margin-bottom: 3.5%;}
 	textarea {height: 50px;}
+
 	}

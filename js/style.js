@@ -55,13 +55,13 @@ function myF(){
 	var anchoNavegador = $("#clientes").width();
 	$(".linkCliente").css({"margin":(((anchoNavegador/3)-160)/2),"margin-bottom":0,"margin-top":anchoNavegador/30});
 
-	/* ======= Alineamiento de los contactos de los clientes ===========*/
+	/* ======= Alineamiento de los nuestro equipo ===========*/
 	var anchoNavegador = $(".primerDiv").width();
 	$("#nuestroEquipo div div").css({"max-width":(anchoNavegador/3)-10});
 	$("#nuestroEquipo div div").css({"margin":(((anchoNavegador/3)-5-$("#nuestroEquipo div div").width())/2),"margin-bottom":0,"margin-top":anchoNavegador/150});
 
-	/*======== Aspect ratio de Nuestros Servicios ============*/
-	var hightIm = $('#contacto').width()*.4739;
+	/*======== Aspect ratio de contacto============*/
+	var hightIm = $('#contacto').width()*.540625;
 	$('#contacto').height(hightIm);
 
 
