@@ -18,17 +18,43 @@
 	background-size: cover;
 	background-image: url("../img/main.jpg");
 }
+input[type=checkbox]{display: none}
+.redes {
+	position: absolute;
+	right:105px;
+	z-index: 20;
+}
+.redes a{margin-left: 15px;}
+.instagram{background-image: url("../img/instagram.png");}
+.facebook{background-image: url("../img/fb.png");}
+.instagram:hover{
+	background-image: url("../img/instagram-hover.png");
+	-webkit-transition: width 1s; /* Safari */
+	transition:  .45s;}
+.facebook:hover{
+	background-image: url("../img/fb-hover.png");
+	-webkit-transition: width 1s; /* Safari */
+	transition:  .45s;}
 
+.facebook,.instagram{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0;
+	width: 16px;
+	height: 17px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
 .logo {
 	background: url('../img/logo.png');
 	background-size: contain;
-	background-position: 0;
+	background-position: 0 0;
 	background-repeat: no-repeat;
 	width: 255px;
 	height: 145px;
 	display: inline-block;
 	position: relative;
-	top: 0px;
 	left: 98px;
 	margin: 0;
 }
@@ -43,6 +69,7 @@ nav {
 	position: relative;
 	display: block;
 	float: right;
+	margin-top: 20px;
 	width: 100%;
 	}
 
@@ -54,9 +81,10 @@ nav ul {display: inline-block;
 	float: right;
 	box-sizing: border-box;
 	position: absolute;
-	right: 0;}
+	right: 0;
+	z-index: 10;}
 
-nav li {padding: 126px 0 0 0;}
+nav li {padding: 128px 0 0 0;}
 
 nav p {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -65,15 +93,12 @@ nav p {
 	letter-spacing: .2em;
 	color: white;
 	line-height: 20px;
-
 }
-
 nav p:hover {
 	color:#F26F21;
 	-webkit-transition: width 1s; /* Safari */
 	transition:  .45s;
 }
-
 .spacing-contenedor {
 	 text-align: justify;
     -ms-text-justify: distribute-all-lines;
@@ -83,7 +108,6 @@ nav p:hover {
     content: '';
     width: 100%;
     display: inline-block;}
-
 .spacing {
 	display: inline-block;
     vertical-align: top;
