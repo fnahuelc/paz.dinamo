@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9d57486-7e21-422e-b330-99575efc07e9" name="Default" comment="Con correcciones">
+    <list default="true" id="e9d57486-7e21-422e-b330-99575efc07e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -50,11 +50,11 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
                   <folding>
-                    <marker date="1476849645751" expanded="true" signature="885:979" placeholder="..." />
-                    <marker date="1476849645751" expanded="true" signature="1580:11768" placeholder="..." />
-                    <marker date="1476849645751" expanded="true" signature="1646:11699" placeholder="..." />
+                    <marker date="1476849724097" expanded="true" signature="885:979" placeholder="..." />
+                    <marker date="1476849724097" expanded="true" signature="1591:11779" placeholder="..." />
+                    <marker date="1476849724097" expanded="true" signature="1657:11710" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -122,8 +122,8 @@
           <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+                <state relative-caret-position="306">
+                  <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -340,7 +340,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476743264395</updated>
-      <workItem from="1476743267575" duration="32178000" />
+      <workItem from="1476743267575" duration="32255000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminamos las fuentes y la librearia jquery&#10;">
       <created>1476744736966</created>
@@ -454,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476849553082</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Con correcciones">
+      <created>1476849667984</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1476849667984</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32178000" />
+    <option name="totallyTimeSpent" value="32255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -580,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
         </state>
       </provider>
