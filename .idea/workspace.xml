@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9d57486-7e21-422e-b330-99575efc07e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/static.css" afterPath="$PROJECT_DIR$/style/static.css" />
     </list>
     <ignored path="paz.dinamo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -332,7 +331,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1476743264395</updated>
-      <workItem from="1476743267575" duration="48822000" />
+      <workItem from="1476743267575" duration="48842000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminamos las fuentes y la librearia jquery&#10;">
       <created>1476744736966</created>
@@ -495,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476887034581</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Con correcciones">
+      <created>1476887128721</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1476887128721</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48822000" />
+    <option name="totallyTimeSpent" value="48842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
