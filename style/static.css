@@ -6,6 +6,7 @@
 	margin-left: auto;
 	position: relative;
 	background: #FFFFFF;
+	z-index: 90;
 }
 .main {
 	padding-bottom: 59%;
@@ -609,5 +610,6 @@ input[type=submit]{
 	position: fixed;
 	right: 15px;
 	bottom: 100px;
-	display: none;;
+	display: none;
+	z-index: 100;
 	}
