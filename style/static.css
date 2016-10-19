@@ -1,6 +1,6 @@
 
 .contenedor {
-	/*min-width: 900px;*/
+	min-width: 900px;
 	max-width: 1920px;
 	margin-right: auto;
 	margin-left: auto;
@@ -609,5 +609,5 @@ input[type=submit]{
 	position: fixed;
 	right: 15px;
 	bottom: 100px;
-	display: none;
+	display: none;;
 	}
