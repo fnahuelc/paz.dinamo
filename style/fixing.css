@@ -109,7 +109,7 @@
 	}
 
 /*FORMA DE TRABAJAR*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
 
 	#formaDeTrabajar .linea-medio {
 		margin-top: 150px;
@@ -118,7 +118,7 @@
 	#formaDeTrabajar .contenido p {
 		font-size: 90%;
 		line-height: 25px;
-		padding: 10px;
+		padding-left: 0px;
 	}
 
 	#formaDeTrabajar .contenido {
