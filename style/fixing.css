@@ -79,7 +79,7 @@
 
 	}
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1280px) {
 
 	.tituloItemServicios {
 		width: 89%;
@@ -109,7 +109,7 @@
 	}
 
 /*FORMA DE TRABAJAR*/
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1280px) {
 
 	#formaDeTrabajar .linea-medio {
 		margin-top: 150px;
