@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="description" content="Dinamo 360 Website">
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="dinamo360 dinamo 360 comunicacion buenos aires latam gestion analisis medios">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Anton|Lato:300,400,400i,700,900|Roboto+Condensed:700,700i|Roboto:300,400" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style/static.css"/>
 		<link rel="stylesheet" type="text/css" href="style/fixing.css"/>
 		<link rel="stylesheet" type="text/css" href="style/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="style/extra-animation.css"/>
-		<!--<link rel="stylesheet" type="text/css" href="style/menuDesplegable.css"/>
-		<link rel="stylesheet" type="text/css" href="style/smallScreen.css"/>
+		<!--
 		-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="style/menuDesplegable.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/menuDesplegable.css"/>
+		<link rel="stylesheet" type="text/css" href="style/smallScreen.css"/>
 		<!--
 		<script type="text/javascript" src="../../Librerias/jquery-3.1.1.min.js"></script>
 		-->
@@ -40,23 +42,24 @@
 	<a href="#main" class="botonHome"></a>
 	<div class="contenedor">
 		<section id="main" class="main">
-			<input type="checkbox" class="checkbox" id="menu-toogle"/>
-			<label for="menu-toogle" class="menu-toogle"></label>
-			<nav class="nav">
+			<nav id="nav-main" class="nav">
 				<div class="redes">
 					<a href="https://www.facebook.com/dinamo360/?fref=ts"><div class="facebook"></div></a>
 					<a href="https://www.instagram.com/dinamo.360/"><div class="instagram"></div></a>
 				</div>
 				<div class="logo"></div>
 				<ul class="spacing-contenedor">
-					<li class="spacing nav__item current"><a href="#quienesSomos"><p>NOSOTROS</p></a></li>
-					<li class="spacing nav__item"><a href="#servicios"><p>SERVICIOS</p></a></li>
-					<li class="spacing nav__item"><a href="#clientes"><p>CLIENTES</p></a></li>
-					<li class="spacing nav__item"><a href="#contacto"><p>CONTACTO</p></a></li>
-					<li class="spacing nav__item"><a href="#"><p>DIMASS.STUDIO</p></a></li>
-					<span class="stretch"></span>
+					<li class="spacing "><a href="#quienesSomos"><p>NOSOTROS</p></a></li>
+					<li class="spacing "><a href="#servicios"><p>SERVICIOS</p></a></li>
+					<li class="spacing "><a href="#clientes"><p>CLIENTES</p></a></li>
+					<li class="spacing "><a href="#contacto"><p>CONTACTO</p></a></li>
+					<li class="spacing "><a href="#"><p>DIMASS.STUDIO</p></a></li>
 				</ul>
 			</nav>
+			<div id="nav-trigger">
+				<span id="menuDesplegable">MENU</span>
+			</div>
+			<nav id="nav-mobile"></nav>
 			<div class="somos">
 			<h1 class="somosCom wow pulse" data-wow-delay="0s" data-wow-duration="5s" data-wow-iteration="infinite">SOMOS COMUNICACIÓN</h1>
 			<h1 class="somosDin wow pulse" data-wow-delay="2s" data-wow-duration="5s" data-wow-iteration="infinite">SOMOS DINAMO</h1>
@@ -90,8 +93,7 @@
 		</section>
 		<section class="imAspRat heightParent" id="servicios">
 			<div class="titulo-seccion">
-				<h1>NUESTROS
-				<br>SERVICIOS</h1>
+				<h1>NUESTROS<br>SERVICIOS</h1>
 			</div>			
 			<div class="content heightChild">
 				<div class="contentItem">
@@ -124,12 +126,14 @@
 			<div class="linea-medio">
 				<div class="contencion">
 					<div class="contenido FormaTrabajar1">
+						<div class="iconoDeSmallScreen1"></div>
 						<h2>ESTRATEGIA</h2><div class="barra"></div>
 						<p>Es el momento de escuchar y entender la problemática de cada cliente. La información nos permite desarrollar la estrategia necesaria para cumplir los distintos objetivos de la campaña.</p></div>
 					<div class="icono FormaTrabajar1"></div>
 				</div>
 				<div class="contencion">
 					<div class="contenido FormaTrabajar2">
+						<div class="iconoDeSmallScreen2"></div>
 						<h2>RESEARCH</h2><div class="barra"></div>
 						<p>Con la estrategia ya planteada, aplicamos nuestro knowhow en el mercado publicitario para poder proponer la planificación más adecuada para alcanzar los objetivos propuestos.</p></div>
 					<div class="icono FormaTrabajar2"></div>
@@ -137,6 +141,7 @@
 
 				<div class="contencion">
 					<div class="contenido FormaTrabajar3">
+						<div class="iconoDeSmallScreen3"></div>
 						<h2 >IMPLEMENTACIÓN</h2><div class="barra"></div>
 						<p>Dinamo 360 cuenta con un equipo profesional y creativo para gestionar una minuciosa ejecución del plan, que incluye la reserva anticipada de espacios en busca de buenas ubicaciones, seguimiento de publicaciones y más.</p>
 					</div>
@@ -144,6 +149,7 @@
 				</div>
 				<div class="contencion">
 					<div class="contenido FormaTrabajar4">
+						<div class="iconoDeSmallScreen4"></div>
 						<h2>RESULTADOS</h2><div class="barra"></div>
 						<p>El análisis de los resultados permite entender los logros alcanzados y analizar las mejoras para futuras planificaciones. <br>La gestión de certificaciones y métricas, y la realización de informes, son piezas fundamentales para esto.</p>
 					</div>
@@ -182,7 +188,7 @@
 				<div><h3>CELINA CAMPOS</h3><h4>MEDIA BUYING & PLANNING</h4><h5>celina.campos@dinamo.com.ar</h5></div>	
 			</div>
 			<div class="ultimoDiv">
-				<div></div>
+				<div id="elVacio"></div>
 				<div><h3>LUCAS FLUK</h3><h4>ACCOUNTING ASSISTANT</h4><h5>lucas.fluk@dinamo.com.ar</h5></div>
 				<div><h3>SOFÍA GOSALBEZ</h3><h4>MEDIA BUYING & PLANNING</h4><h5>sofia.gosalbez@dinamo.com.ar</h5></div>	
 			</div>

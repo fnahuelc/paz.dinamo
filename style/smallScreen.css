@@ -1,19 +1,617 @@
 @media screen and (max-width: 900px) {
     /*============HOME============*/
-    .main {background-size: cover;
-        height: 100vh;
-        width: 100%;}
-    .somosCom, .somosDin {
-        font-size: 30px;
-        line-height: 32px;}
-    .somos {margin-top: 60px;
-    z-index: 10;}
-    nav {z-index: 20; }
-    .nav_item {
-        float: left;
-        position: relative;
+    * {
         padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 50;
+    }
+
+    .contenedor {
+        width: 100vw;
+        position: absolute;
+    }
+
+    .main {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/main.jpg");
+        height: 120vh;
+        width: 100vw;
+    }
+
+    .logo {
+        background: url('../img/logo.png');
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 30vw;
+        height: 17vw;
+        margin: 0;
+        margin-bottom: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .redes {position: absolute;
+        right: 2vw;
+        top: -9vh;  }
+    .redes a {
+        margin-left: .5vw;
+        display: inline-block;
+        float: left;
+        padding: 0 !important;}
+
+    .instagram {background-image: url("../img/instagram-hover.png");}
+
+    .facebook { background-image: url("../img/fb-hover.png");}
+
+    .instagram:hover {
+        background-image: url("../img/instagram-hover.png");
+        -webkit-transition: width 1s; /* Safari */
+        transition: .45s;
+    }
+
+    .facebook:hover { background-image: url("../img/fb-hover.png");
+        -webkit-transition: width 1s; /* Safari */
+        transition: .45s; }
+
+    .facebook, .instagram {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0;
+        width: 5vw;
+        height: 5vw;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    nav p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: .2em;
+        color: white;
         line-height: 20px;
     }
 
+    a {
+        text-decoration: none;
+    }
+
+    .somos {
+        font-family: 'Anton', sans-serif;
+        color: #F26F21;
+        display: block;
+        margin-bottom: auto;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .somosCom {
+        font-size: 1.5em;
+    }
+
+    .somosDin {
+        font-size: 2em;
+    }
+
+    .titulo-seccion {
+        color: #F26F21;
+        display: block;
+        padding: 5.3vw 0% 5vw 0;
+        margin-top: 5vw;
+        text-align: center;
+    }
+
+    .titulo-seccion-arriba {
+        font-family: 'Anton', sans-serif;
+        color: #558188;
+        line-height: 1em;
+        font-size: 2.1em;
+        letter-spacing: .1em;
+    }
+
+    .titulo-seccion-abajo {
+        font-family: 'Anton', sans-serif;
+        color: #F26F21;
+        line-height: 1em;
+        font-size: 2em;
+        letter-spacing: .1em;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .intro .content1, .intro .content2 {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+        padding: 0 5% 0;
+        padding-bottom: 0;
+        text-align: justify;
+        display: inline-block;
+        color: #504F53;
+        letter-spacing: .2em;
+        line-height: 1em;
+    }
+
+    .nuestraFilosofia {
+        font-family: 'Anton', sans-serif;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 2em;
+        letter-spacing: .1em;
+        text-align: center;
+        margin-top: 8vw;
+        clear: both;
+    }
+
+    .filosofia {
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: .2em;
+        color: #FFFFFF;
+        padding: 2em 10vw;
+        background-color: #1B1C20;
+        text-align: center;
+    }
+
+    .filosofia p {
+        text-align: center;
+    }
+
+    .creemosQue {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1.3em;
+        color: #504F53;
+        padding: 5vw 1vw;
+        text-align: center;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+    }
+
+    .circulo {
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        height: 70vw;
+        width: 70vw;
+        line-height: 70vw;
+        background-color: #F26F21;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        font-size: 3.5vw;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        margin: 5vw auto;
+
+    }
+
+    .circulo p {
+        display: inline-block;
+        line-height: 1.2em;
+        padding: 10vw;
+        vertical-align: middle;
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+    }
+
+    #servicios {
+        width: 100%;
+        height: 400vh;
+        background-position: 30% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/servicios.jpg");
+    }
+
+    #servicios .titulo-seccion {
+        font-family: 'Anton', sans-serif;
+        letter-spacing: .1em;
+        color: #F26F21;
+        padding: 0;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        display: block;
+    }
+
+    #servicios .titulo-seccion h1 {
+        line-height: 1em;
+        font-size: 2em;
+    }
+
+    #servicios .content {
+        background: rgba(104, 102, 107, .6);
+        float: right;
+        width: 100%;
+    }
+
+    .contentItem {
+        width: 90vw;
+        padding: 5vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contentLogo1,
+    .contentLogo2,
+    .contentLogo3,
+    .contentLogo4 {
+        background-size: contain;
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        width: 20vh;
+        height: 22vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contentLogo1 {
+        background-image: url("../img/contentLogo1.png");
+    }
+
+    .contentLogo2 {
+        background-image: url("../img/contentLogo2.png");
+    }
+
+    .contentLogo3 {
+        background-image: url("../img/contentLogo3.png");
+    }
+
+    .contentLogo4 {
+        background-image: url("../img/contentLogo4.png");
+    }
+
+    .tituloItemServicios {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        font-size: .9em;
+        line-height: 1.2em;
+        letter-spacing: .2em;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: .4em;
+        padding-bottom: .6em;
+    }
+
+    .contentItem p {
+        font-family: 'Lato', sans-serif;
+        font-size: .8em;
+        line-height: 1.1em;
+        letter-spacing: .2em;
+        color: #FFFFFF;
+        text-align: justify;
+    }
+
+    #formaDeTrabajar {
+        margin-top: 5vh;
+    }
+
+    #formaDeTrabajar .titulo-seccion-arriba, #formaDeTrabajar .titulo-seccion-abajo {
+        text-align: center;
+    }
+
+    #formaDeTrabajar .nuestraPropuesta {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+        letter-spacing: .2em;
+        text-align: center;
+        margin: 3vw 0 10vw 0;
+    }
+
+    .iconoDeSmallScreen1,
+    .iconoDeSmallScreen2,
+    .iconoDeSmallScreen3,
+    .iconoDeSmallScreen4 {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        width: 16vw;
+        height: 16vw;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #F26F21;
+        display: inline-block;
+        float: left;
+        margin-right: 5vw;
+
+    }
+
+    .iconoDeSmallScreen1 {
+        background-image: url("../img/iconoFormaDeTrabajar1.png");
+    }
+
+    .iconoDeSmallScreen2 {
+        background-image: url("../img/iconoFormaDeTrabajar2.png");
+    }
+
+    .iconoDeSmallScreen3 {
+        background-image: url("../img/iconoFormaDeTrabajar3.png");
+    }
+
+    .iconoDeSmallScreen4 {
+        background-image: url("../img/iconoFormaDeTrabajar4.png");
+    }
+
+    #formaDeTrabajar .contenido {
+
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10vw;
+    }
+
+    .contenido h2 {
+        font-family: 'Anton', sans-serif;
+        font-size: 8vw;
+        line-height: 1em;
+        letter-spacing: .1em;
+        float: left;
+    }
+
+    .contenido .barra {
+        float: left;
+        height: 8vw;
+        width: 50vw;
+        background-image: url("../img/barra.png");
+        background-size: 100% 100%;
+        background-position: 0 0;
+        margin-bottom: 3vw;
+        padding-bottom: 1vw;
+        display: inline-block;
+        padding-right: 30vh;
+    }
+
+    .contenido p {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1.3em;
+        line-height: 1.4em;
+        background-color: #F8F8F8;
+        display: block;
+        clear: both;
+        padding: 1em;
+        padding-left: 0;
+    }
+
+    .contenido.FormaTrabajar1 p,
+    .contenido.FormaTrabajar3 p,
+    .contenido.FormaTrabajar2 p,
+    .contenido.FormaTrabajar4 p {
+        text-align: left;
+    }
+
+    #clientes {
+        clear: both;
+        margin: 0 auto;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .clientes-contenedor {
+        width: 100%;
+        clear: both;
+    }
+
+    .linkCliente {
+        background-position: 0;
+        background-size: contain;
+        float: left;
+        padding: 0;
+        width: 20vw;
+        height: 13vw;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+
+    .besha {
+        background-image: url("../img/beshaLink.png");
+    }
+
+    .swatch {
+        background-image: url("../img/swatchLink.png");
+    }
+
+    .norton {
+        background-image: url("../img/nortonLink.png");
+    }
+
+    .corven {
+        background-image: url("../img/corvenLink.png");
+    }
+
+    .umara {
+        background-image: url("../img/umaraLink.png");
+    }
+
+    .viamo {
+        background-image: url("../img/viamoLink.png");
+    }
+
+    .footy {
+        background-image: url("../img/footyLink.png");
+    }
+
+    .nevada {
+        background-image: url("../img/nevadaLink.png");
+    }
+
+    .secco {
+        background-image: url("../img/seccoLink.png");
+    }
+
+    #nuestroEquipo {
+        clear: both;
+        background-image: url("../img/nuestroEquipoSW.png");
+        background-size: cover;
+        background-position: center center;
+        padding-top: 30vw;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: .1em;
+        color: #FFFFFF;
+    }
+
+    #nuestroEquipo h1 {
+        text-align: center;
+    }
+
+    #elVacio {
+        display: none !important;
+    }
+
+    #nuestroEquipo div div {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 8vw;
+        display: inline-block;
+        width: 95vw;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    #nuestroEquipo .primerDiv {
+        padding-top: 10vw;
+    }
+
+    #nuestroEquipo .ultimoDiv {
+        padding-bottom: 10vw;
+    }
+
+    #nuestroEquipo h3 {
+        font-family: "Lato", sans-serif;
+        letter-spacing: .2em;
+        font-weight: 900;
+    }
+
+    #nuestroEquipo h4, #nuestroEquipo h5 {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        letter-spacing: .2em;
+    }
+
+    #contacto {
+        background-image: url("../img/contacto.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
+
+    #contacto .izquierda {
+        width: 90vw;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: .4vw;
+        clear: both;
+        color: white;
+        padding-bottom: 2em;
+        padding-top: 2em;
+    }
+
+    #contacto p {
+        font-family: 'Lato', sans-serif;
+        font-size: .8em;
+        letter-spacing: .2em;
+        line-height: 1.3em;
+    }
+
+    #contacto .direccion {
+        line-height: 1.2em;
+    }
+
+    #contacto h4 {
+        font-family: "Lato", sans-serif;
+        letter-spacing: .2em;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 1.2em;
+        margin: .1vw 0;
+        margin-top: 1.5em
+    }
+
+    #contacto .derecha {
+
+        float: right;
+        width: 100vw;
+        padding-top: 10vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #contacto .derecha h4 {
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 1.2em;
+        letter-spacing: .2em;
+        margin: 3vw 5vw 1vw 5vw;
+        color: #FFFFFF;
+    }
+
+    input, textarea {
+        margin-left: 5vw;
+        width: 80vw;
+        border-radius: .3em;
+        margin-bottom: 1vw;
+    }
+
+    textarea {
+        margin-bottom: 1vw;
+        height: 30vh;
+    }
+
+    input[type=text], input[type=email], input[type=number], textarea {
+        font-size: 1em;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        letter-spacing: .2em;
+        padding-left: .5em;
+    }
+
+    input[type=text]:focus, input[type=email]:focus, input[type=number]:focus, textarea:focus {
+        background-color: lightblue;
+    }
+
+    input[type=submit] {
+        width: 6em;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        letter-spacing: .2em;
+        clear: both;
+        float: right;
+        margin-right: 15vw;
+        text-transform: uppercase;
+    }
+
+    .firma {
+        display: block;
+        text-align: center;
+        width: 100vw;
+        clear: both;
+        padding: 10vw;
+    }
+    .firma img{
+        width: 50vw;
+        height:17vw;}
 }
+
