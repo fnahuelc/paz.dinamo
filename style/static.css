@@ -377,7 +377,6 @@ p {margin: 0;}
 .icono.FormaTrabajar2,
 .icono.FormaTrabajar3,
 .icono.FormaTrabajar4 {
-	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	width: 176px;
@@ -555,7 +554,7 @@ p {margin: 0;}
 }
 #contacto p {
 	font-family: 'Lato', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: .2em;
 	line-height: 36px;
 }
@@ -565,7 +564,7 @@ p {margin: 0;}
 	font-family: "Lato", sans-serif;
 	letter-spacing: .2em;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 21px;
 	margin: 9px 0;}
 #contacto .izquierda div {margin-top: 65px;}
@@ -579,7 +578,7 @@ p {margin: 0;}
 #contacto .derecha h4 {
 	font-family: "Lato", sans-serif;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 20px;
 	letter-spacing: .2em;
 	margin: 9px 0;
@@ -595,7 +594,7 @@ textarea {
 	height: 170px;
 }
 input[type=text], input[type=email], input[type=number], textarea {
-	font-size: 15px;
+	font-size: 13px;
 	font-family: "Lato", sans-serif;
 	font-weight: bold;
 	letter-spacing: .2em;
@@ -608,7 +607,7 @@ input[type=submit]{
 	width: 5em;
 	font-family: "Lato", sans-serif;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: .2em;
 	clear: both;
 	float: right;
