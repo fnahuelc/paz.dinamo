@@ -18,6 +18,7 @@ function myF() {
         });
     });
 
+
 	if ($(window).width() > 900) {
 		/*======== Aspect ratio de Nuestros Servicios ============*/
 
@@ -75,6 +76,11 @@ function myF() {
 
 	}
 	else{
+        if (screen.width < 450)
+        {
+            var mvp = document.getElementById('vp');
+            mvp.setAttribute('content','width=450');
+        }
         
         var hightCont = $('.contentItem').outerHeight();
         $('.contentItem').height(hightCont);
