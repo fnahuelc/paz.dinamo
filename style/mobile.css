@@ -142,8 +142,8 @@
         font-family: 'Anton', sans-serif;
         color: #558188;
         margin: 0;
-        line-height: 24px;
-        font-size: 22px;
+        line-height: 1em;
+        font-size: 3.5vw;
         letter-spacing: .1em;
     }
 
@@ -151,8 +151,8 @@
         font-family: 'Anton', sans-serif;
         color: #F26F21;
         margin: 0;
-        line-height: 24px;
-        font-size: 22px;
+        line-height: 1em;
+        font-size: 3.5vw;
         letter-spacing: .1em;
     }
 
@@ -163,21 +163,21 @@
     .intro .content1, .intro .content2 {
         font-family: "Lato", sans-serif;
         font-weight: 300;
-        font-size: 12px;
-        padding-top: 4%;
-        padding-right: 5%;
+        font-size: 1.5vw;
+        padding-top: 4.4%;
+        padding-right: 5vw;
         text-align: justify;
         color: #504F53;
         letter-spacing: .2em;
         line-height: 4vw;
-        width: calc(100% - 160px);
+
+        width: 75vw;
         float: right;
         margin: 0;
     }
     .intro .content2 {
         padding-top: 0;
         line-height: 23px;
-        clear: left;
     }
 
     .nuestraFilosofia {
@@ -185,7 +185,7 @@
         display: block;
         margin: 0px auto 20px auto;
         padding-top: 60px;
-        font-size: 22px;
+        font-size: 3vw;
         letter-spacing: .1em;
         text-align: center;
         clear: both;
@@ -194,8 +194,8 @@
     .filosofia {
         font-family: "Lato", sans-serif;
         font-weight: bold;
-        font-size: 12px;
-        line-height: 29px;
+        font-size: 1.5vw;
+        line-height: 2em;
         letter-spacing: .2em;
         color: #FFFFFF;
         margin: 0;
@@ -211,8 +211,8 @@
     .creemosQue {
         font-family: "Lato", sans-serif;
         font-weight: 300;
-        font-size: 15px;
-        line-height: 28px;
+        font-size: 1.6vw;
+        line-height: 2em;
         color: #504F53;
         padding: 10vh 8vw;
         text-align: center;
@@ -224,13 +224,13 @@
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
-        height: calc(30vw + 100px);
-        width: calc(30vw + 100px);
-        line-height: calc(30vw + 100px);
+        height: calc(35vw + 0px);
+        width: calc(35vw + 0px);
+        line-height: calc(35vw + 0px);
         background-color: #F26F21;
         font-family: "Lato", sans-serif;
         font-weight: bold;
-        font-size: calc(.9vw + 6px);
+        font-size: calc(1.5vw + 0px);
         text-align: center;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -243,10 +243,10 @@
     }
 
     .circulo p {
-        line-height: calc(3vw + 8px);
+        line-height: 2em;
         display: inline-block;
         vertical-align: middle;
-        padding: 8vw;
+        padding: 5vw;
         -webkit-margin-before: 0em;
         -webkit-margin-after: 0em;
         -webkit-margin-start: 0px;
@@ -282,8 +282,8 @@
     }
 
     #servicios .titulo-seccion h1 {
-        line-height: 24px;
-        font-size: 22px;
+        line-height: 3.3vw;
+        font-size: 3vw;
         padding: 0;
         margin: 0;
     }
@@ -301,7 +301,7 @@
         width: 50%;
         display: inline-block;
         float: left;
-        padding: 1vw 10vw 0vw 5vw;
+        padding: 4vw 5vw 0vw 5vw;
         box-sizing: border-box;
     }
 
@@ -336,8 +336,8 @@
     .tituloItemServicios {
         font-family: "Lato", sans-serif;
         font-weight: 900;
-        font-size: 12px;
-        line-height: 28px;
+        font-size: 1.5vw;
+        line-height: 2em;
         letter-spacing: .2em;
         color: #FFFFFF;
         margin: 0;
@@ -348,8 +348,8 @@
 
     .contentItem p {
         font-family: 'Lato', sans-serif;
-        font-size: 10px;
-        line-height: 23px;
+        font-size: 1.3vw;
+        line-height: 2.5em;
         letter-spacing: .2em;
         color: #FFFFFF;
         text-align: justify;
@@ -378,7 +378,7 @@
     #formaDeTrabajar .nuestraPropuesta {
         font-family: 'Lato', sans-serif;
         font-weight: 300;
-        font-size: 12px;
+        font-size: 1.8vw;
         letter-spacing: .2em;
         text-align: center;
         margin: 3% 0 50px 0;
@@ -454,10 +454,14 @@
         line-height: 3vw;
         letter-spacing: .1em;
         float: left;
-        margin: 0 5px 0 0;
-        padding: 7.5px 0;
+        margin: 0;
+        padding: 2px 2px 2px 0;
         vertical-align: center;
         color: #303030;
+    }
+    .contenido.FormaTrabajar2 h2,
+    .contenido.FormaTrabajar4 h2{
+        float:right;
     }
 
     .contenido .barra {
@@ -467,7 +471,14 @@
         background-size: 100% 100%;
         background-position: 0 0;
         padding: 12px 0;
-
+    }
+    .contenido.FormaTrabajar2 .barra,
+    .contenido.FormaTrabajar4 .barra{
+        -moz-transform: scaleX(-1); /* Firefox */
+        -o-transform: scaleX(-1); /* Opera */
+        -webkit-transform: scaleX(-1); /* Chrome y Safari */
+        transform: scaleX(-1); /* w3org */
+        filter: FlipH; /* Internet Explorer */
     }
 
     .contenido p {

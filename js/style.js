@@ -84,6 +84,11 @@ function myF() {
         $('#servicios').css({height:hightIm});
 
         // ==========================================
+        var div1 = $( "#div1" ).replaceWith($("#div2"));
+
+        div1.insertAfter($( "#div2" ));
+
+        // ==========================================
 
         var altoDivs = $('#nav-trigger').outerHeight() +
             $('#nav-mobile').outerHeight()
