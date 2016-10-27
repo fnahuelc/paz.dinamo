@@ -5,20 +5,22 @@
 		<meta name="description" content="Dinamo 360 Website">
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<meta name="keywords" content="dinamo360 dinamo 360 comunicacion buenos aires latam gestion analisis medios">
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		-->
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Anton|Lato:300,400,400i,700,900|Roboto+Condensed:700,700i|Roboto:300,400" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style/static.css"/>
 		<link rel="stylesheet" type="text/css" href="style/fixing.css"/>
 		<link rel="stylesheet" type="text/css" href="style/animate.css"/>
 		<link rel="stylesheet" type="text/css" href="style/extra-animation.css"/>
 		<!--
-		-->
+
 		<script type="text/javascript" src="style/menuDesplegable.js"></script>
 		<link rel="stylesheet" type="text/css" href="style/menuDesplegable.css"/>
 		<link rel="stylesheet" type="text/css" href="style/smallScreen.css"/>
-		<!--
-		<script type="text/javascript" src="../../Librerias/jquery-3.1.1.min.js"></script>
 		-->
+
+		<link rel="stylesheet" type="text/css" href="style/mobile.css"/>
 		<script src="js/wow.js"></script>
 
 		<script>
@@ -56,9 +58,11 @@
 					<li class="spacing "><a href="#"><p>DIMASS.STUDIO</p></a></li>
 				</ul>
 			</nav>
+			<!--
 			<div id="nav-trigger">
 				<span id="menuDesplegable">MENU</span>
 			</div>
+			-->
 			<nav id="nav-mobile"></nav>
 			<div class="somos">
 			<h1 class="somosCom wow pulse" data-wow-delay="0s" data-wow-duration="5s" data-wow-iteration="infinite">SOMOS COMUNICACIÓN</h1>
@@ -81,7 +85,7 @@
 				</p>
 			</div>
 			<h3 class="nuestraFilosofia">NUESTRA FILOSOFÍA</h3>
-			<div class="filosofia"><p>“YES, I`M OLD SCHOOL. I HAVE GOOD MANNERS. I SHOW OTHERS RESPECT AND I WILL ALWAYS HELP THOSE WHO NEED ME. IT’S NOT BECAUSE I`M OLD FASHIONED. <br> IT`S BECAUSE I WAS RAISED PROPERLY”</p></div>
+			<div class="filosofia"><p>“YES, I`M OLD SCHOOL. I HAVE GOOD MANNERS. I SHOW OTHERS RESPECT AND I WILL ALWAYS HELP THOSE WHO NEED ME. IT’S NOT BECAUSE I`M OLD FASHIONED. IT`S BECAUSE I WAS RAISED PROPERLY”</p></div>
 			<p class="creemosQue">Creemos que nuestra trayectoria en los medios, sumada a nuestra forma de trabajo, son los mejores valores que le podemos ofrecer a nuestros clientes. <br>Pero, además, creemos que:</p>
 			<div class="spacing-contenedor circulos">
 				<div class="spacing circulo wow zoomIn" data-wow-delay=".05s" data-wow-duration="400ms"><p>Nuestros clientes deben liderar las tendencias en comunicación, y, por eso, trabajamos todos los días en el desarrollo de “state-of-the-art” plans</p></div>
@@ -195,10 +199,10 @@
 		</section>
 		<section id="contacto">
 			<div class="izquierda">
-				<div>
+				<div class="porCualquier">
 					<p>Por cualquier consulta ponete en contacto con nosotros y te responderemos a la brevedad.</p>
 				</div>
-				<div>
+				<div class="direccionContacto">
 					<h4>DIRECCION</h4>
 					<p class="direccion">Godoy Cruz 1577 - 4to B <br> CABA, Argentina</p>
 				</div>
@@ -211,8 +215,8 @@
 					<p>info@dinamo360.com.ar</p>
 				</div>
 			</div>
-			<form action="https://formspree.io/fnahuelc@gmail.com" method="post" class="derecha" id="userform">
-				<h4>NOMBRE Y APELLIDO</h4>
+			<form action="https://formspree.io/carolina.dicarlo@dinamo360.com.ar" method="post" class="derecha" id="userform" name="myForm">
+				<h4 class="nombreApellido">NOMBRE Y APELLIDO</h4>
 				<input type="text" name="Nombre" value=""/>
 				<h4>E-MAIL</h4>
 				<input type="email" name="Email" value=""/>
@@ -225,5 +229,6 @@
 			<div class="firma"><a href="http://www.agenciaberlin.com.ar"><img src="img/berlin.png" alt="DiseñoBerlin" widht="216px"></a></div>
 		</section>
 	</div>
+
 	<script type="text/javascript" src="js/style.js"></script>
 	</body>

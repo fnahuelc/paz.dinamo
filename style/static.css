@@ -21,10 +21,6 @@
 		background-image: url("../img/main.jpg");
 	}
 
-	input[type=checkbox] {
-		display: none
-	}
-
 	.redes {
 		position: absolute;
 		right: 105px;

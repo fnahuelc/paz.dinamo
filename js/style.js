@@ -21,7 +21,7 @@ function myF() {
 	if ($(window).width() > 900) {
 		/*======== Aspect ratio de Nuestros Servicios ============*/
 
-		var hightIm = $('.imAspRat').width() * .48;
+		var hightIm = $('.imAspRat').width() * .467;
 		$('.imAspRat').height(hightIm);
 		var hightPar = $('.heightParent').height();
 		$('.heightChild').height(hightPar);
@@ -75,9 +75,15 @@ function myF() {
 
 	}
 	else{
+        
+        var hightCont = $('.contentItem').outerHeight();
+        $('.contentItem').height(hightCont);
+        
+        
 		var hightIm = $('#servicios .content').outerHeight() + $('#servicios .titulo-seccion').outerHeight();
-        $('#servicios').height(hightIm);
-    // ==========================================
+        $('#servicios').css({height:hightIm});
+
+        // ==========================================
 
         var altoDivs = $('#nav-trigger').outerHeight() +
             $('#nav-mobile').outerHeight()
@@ -94,6 +100,21 @@ function myF() {
             "margin-bottom": 0,
             "margin-top": anchoNavegador / 30
         });
+        /* ======= Ancho de barras de Forma de Trabajar ===========*/
+        for (var num = 1; num < 5; num++) {
+            var widhtDiv = $('.contenido.FormaTrabajar' + num).width();
+            var widhtText = $('.contenido.FormaTrabajar' + num + ' h2').width();
+            $('.contenido.FormaTrabajar' + num + ' .barra').width(widhtDiv - widhtText - 10);
 
+            /* ======= Alineamiento de icono con content de Forma de Trabajar ===========*/
+            var heightDiv = $('.contenido.FormaTrabajar' + num).height();
+            var heightIcon = $('.icono.FormaTrabajar' + num).height();
+            $('.contenido.FormaTrabajar' + num).css({bottom: (heightDiv - heightIcon) / 2});
+
+            /*======== Aspect ratio de contacto============*/
+            var topDiv = $('#contacto .derecha').height()*1.6;
+            $(".nombreApellido").offset({ top : topDiv})
+        }
     }
+
 }
