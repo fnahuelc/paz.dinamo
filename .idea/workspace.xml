@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9d57486-7e21-422e-b330-99575efc07e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/mobile.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/enviarForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paz.dinamo.rar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/style.js" afterPath="$PROJECT_DIR$/js/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/static.css" afterPath="$PROJECT_DIR$/style/static.css" />
     </list>
     <ignored path="paz.dinamo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,21 +26,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5822898">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/style.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="49">
-                  <caret line="204" column="45" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="45" />
+                <state relative-caret-position="340">
+                  <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -142,6 +127,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -191,7 +186,7 @@
           <file leaf-file-name="mobile.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/mobile.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="577">
+                <state relative-caret-position="11441">
                   <caret line="692" column="22" selection-start-line="692" selection-start-column="22" selection-end-line="692" selection-end-column="22" />
                   <folding>
                     <element signature="e#11193#11287#0" expanded="false" />
@@ -232,9 +227,9 @@
         <option value="$PROJECT_DIR$/style/smallScreen.css" />
         <option value="$PROJECT_DIR$/js/validacionForm.js" />
         <option value="$PROJECT_DIR$/style/static.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/mobile.css" />
         <option value="$PROJECT_DIR$/js/style.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -422,7 +417,7 @@
       <workItem from="1477126252518" duration="600000" />
       <workItem from="1477172943877" duration="3114000" />
       <workItem from="1477429215648" duration="293000" />
-      <workItem from="1477443409117" duration="27840000" />
+      <workItem from="1477443409117" duration="28840000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminamos las fuentes y la librearia jquery&#10;">
       <created>1476744736966</created>
@@ -641,11 +636,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477099823595</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Con correcciones">
+      <created>1477544385889</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1477544385889</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124086000" />
+    <option name="totallyTimeSpent" value="125086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -1308,17 +1310,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="204" column="45" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
+        <state relative-caret-position="11441">
           <caret line="692" column="22" selection-start-line="692" selection-start-column="22" selection-end-line="692" selection-end-column="22" />
           <folding>
             <element signature="e#11193#11287#0" expanded="false" />
@@ -1331,8 +1325,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
           <folding />
         </state>
       </provider>
