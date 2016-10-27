@@ -110,10 +110,6 @@ function myF() {
             var heightDiv = $('.contenido.FormaTrabajar' + num).height();
             var heightIcon = $('.icono.FormaTrabajar' + num).height();
             $('.contenido.FormaTrabajar' + num).css({bottom: (heightDiv - heightIcon) / 2});
-
-            /*======== Aspect ratio de contacto============*/
-            var topDiv = $('#contacto .derecha').height()*1.6;
-            $(".nombreApellido").offset({ top : topDiv})
         }
     }
 
