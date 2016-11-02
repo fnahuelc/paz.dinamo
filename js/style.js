@@ -1,5 +1,5 @@
-$(window).resize(myF);
 $(myF);
+$(window).resize(myF);
 
 function myF() {
     /*======== Smooth Scroll ============*/
@@ -76,10 +76,11 @@ function myF() {
 
 	}
 	else{
-        if (screen.width < 450)
+        if (screen.width < 320)
         {
             var mvp = document.getElementById('vp');
-            mvp.setAttribute('content','width=450');
+            mvp.setAttribute('content','width=320');
+            console.log($("#vp").width())
         }
         
         var hightCont = $('.contentItem').outerHeight();

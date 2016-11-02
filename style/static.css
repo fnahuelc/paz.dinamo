@@ -168,7 +168,7 @@
 	}
 
 	.somosCom {
-		font-size: 75.63px;
+		font-size: 75px;
 		padding: 0;
 		margin: 0;
 	}
@@ -411,10 +411,10 @@
 	.linea-medio {
 		background: linear-gradient(to right,
 		transparent 0%,
-		transparent calc(50% - 1.01px),
+		transparent calc(50% - 1px),
 		#ADAEB1 calc(50% - 1px),
 		#ADAEB1 calc(50% + 1px),
-		transparent calc(50% + 1.01px),
+		transparent calc(50% + 1px),
 		transparent 100%);
 		padding: 40px 0 0 0;
 	}
@@ -495,12 +495,12 @@
 
 	.contenido h2 {
 		font-family: 'Anton', sans-serif;
-		font-size: 25.48px;
-		line-height: 25.48px;
+		font-size: 25px;
+		line-height: 25px;
 		letter-spacing: .1em;
 		float: left;
 		margin: 0 5px 0 0;
-		padding: 12.5px 0;
+		padding: 12px 0;
 	}
 
 	.contenido .barra {

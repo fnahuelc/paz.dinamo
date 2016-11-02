@@ -1,6 +1,6 @@
 @-webkit-keyframes reducetime {
  0% {width: 0;}
-100% { width: width; }
+100% { }
 }
 .reducetime {
     -webkit-animation-duration: 1s;
