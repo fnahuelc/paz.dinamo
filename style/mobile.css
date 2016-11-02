@@ -11,7 +11,7 @@
 
     .contenedor {
         width: 100vw;
-        min-width: 280px;
+        min-width: 240px;
     }
 
     .main {
@@ -567,14 +567,14 @@
     #nuestroEquipo {
         clear: both;
         width: 100vw;
-        height: calc(50vw + 300px);
+        height: calc(70vw + 130px);
         background-image: url("../img/nuestroEquipo.png");
         background-size: cover;
         background-position: center center;
         padding-top: calc(20vw + 30px);
         font-family: "Lato", sans-serif;
         font-weight: 300;
-        font-size: calc(1vw + 3px);
+        font-size: calc(1vw + 2px);
         line-height: 2em;
         letter-spacing: .1em;
         color: #FFFFFF;

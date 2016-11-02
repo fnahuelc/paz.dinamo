@@ -76,7 +76,7 @@ function myF() {
 
 	}
 	else{
-        
+
         var hightCont = $('.contentItem').outerHeight();
         $('.contentItem').height(hightCont);
         
