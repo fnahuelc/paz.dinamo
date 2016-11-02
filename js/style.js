@@ -76,12 +76,6 @@ function myF() {
 
 	}
 	else{
-        if (screen.width < 320)
-        {
-            var mvp = document.getElementById('vp');
-            mvp.setAttribute('content','width=320');
-            console.log($("#vp").width())
-        }
         
         var hightCont = $('.contentItem').outerHeight();
         $('.contentItem').height(hightCont);
